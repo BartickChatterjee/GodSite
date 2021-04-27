@@ -1,0 +1,157 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-image: url("hd.jpg"); */
+    /* background-size: cover; */
+    background: linear-gradient(45deg,#60a5f3,#e1ff8d);
+    /* animation: spin 1s linear infinite; */
+}
+
+/* #bl {
+    position: absolute;
+    background-color: #0000002f;
+    backdrop-filter: blur(8px);
+    height: 100%;
+    width: 100%;
+} */
+
+#login{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+	color: #222222;
+	/* color: #ffffff; */
+    font-size: 50px;
+    font-family: Gadugi;
+    font-weight: bold;
+    text-align: center;
+}
+
+#ema {
+    /* background-color: yellow; */
+    position: absolute;
+    top: 30%;
+    left: 3%;
+	color: #222222;
+	/* color: #ffffff; */
+    font-size: 24px;
+    font-family: Gadugi;
+    font-weight: bold;
+}
+
+#pas {
+    /* background-color: yellow; */
+    position: absolute;
+    top: 50%;
+    left: 3%;
+	color: #222222;
+	/* color: #ffffff; */
+    font-size: 24px;
+    font-family: Gadugi;
+    font-weight: bold;
+}
+
+input[type="email"], input[type="password"] {
+    position: absolute;
+    top: 40px;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 7px #5e5e5e;
+    transition: box-shadow 0.2s ease-in-out;
+    border-radius: 23px;
+    /* border-color: #000000; */
+    border-width: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 350px;
+    height: 40px;
+    color: #333333;
+    font-size: 20px;
+    font-family: Gadugi;
+    font-weight: bold;
+    outline: 0 !important;
+}
+
+input[type="button"] {
+    background-color: #526cff;
+    transition: background-color 0.3s linear;
+
+    box-shadow: 0px 2px 7px #5e5e5e;
+    transition: box-shadow 0.16s ease-in-out;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    border-radius: 23px;
+    border-width: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 200px;
+    height: 40px;
+    color: #dfdfdf;
+    font-size: 20px;
+    font-family: Gadugi;
+    font-weight: bold;
+    outline: 0 !important;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    box-shadow: 0px 4px 12px #5e5e5e;
+}
+
+input[type="button"]:hover {
+    box-shadow: 0px 4px 12px #5e5e5e;
+}
+
+input[type="button"]:active {
+    background-color: #3b59ff;
+    box-shadow: 0px 2px 7px #5e5e5e;
+}
+
+button {
+    background-color: #526cff;
+    transition: background-color 0.3s linear;
+
+    box-shadow: 0px 2px 7px #5e5e5e;
+    transition: box-shadow 0.2s ease-in-out;
+    position: absolute;
+    top: 80%;
+    left: 62%;
+    border-radius: 23px;
+    border-width: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 200px;
+    height: 40px;
+    color: #dfdfdf;
+    font-size: 20px;
+    font-family: Gadugi;
+    font-weight: bold;
+    outline: 0 !important;
+}
+
+button:hover {
+    box-shadow: 0px 4px 12px #5e5e5e;
+}
+
+button:active {
+    background-color: #3b59ff;
+    box-shadow: 0px 2px 7px #5e5e5e;
+}
+
+#vidwrap {
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    background-color: #000000;
+    height: 360px;
+    width: 640px;
+}
+
+/* @keyframes spin {
+    from { transform: scale3d(2,2,1) rotateZ(0deg);  }
+    to { transform: scale3d(2,2,1) rotateZ(360deg); }
+} */
